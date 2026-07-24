@@ -1,0 +1,19 @@
+# Credenciales y configuración sensible — NUNCA subir
+config/secrets.php
+
+# Documentos académicos personales (informes, manual) — no forman parte del código
+documentos/
+prueba.jpeg
+🚀MEGAENSAMBLER.docx
+REGLAMENTO DE PRACTICAS PRE PROFESIONALES 2022-FINAL.pdf
+
+# Dependencias de Composer (se reinstalan con `composer install`)
+vendor/
+
+# Configuración local del asistente / editor
+.claude/
+.vscode/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
